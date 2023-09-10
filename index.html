@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Image -->
+      <img
+        src="./ppic.webp"
+        alt="Moses Chukwunekwu"
+        class="image"
+        data-testid="slackDisplayImage"
+      />
+      <!-- Profile name -->
+      <h1 data-testid="slackUserName" class="username">Moses Chukwunekwu</h1>
+      <!-- Date and time -->
+      <div class="time">
+        <!-- Day -->
+        <span data-testid="currentDayOfTheWeek" id="day"></span>
+        <!-- Time -->
+        <span data-testid="currentUTCTime" id="time"></span>
+      </div>
+      <!-- Track -->
+      <p data-testid="myTrack" class="track">Track: Frontend</p>
+
+      <!-- Github -->
+      <p data-testid="githubURL" class="github">
+        Github url:
+        <a href="https://github.com/moses-py/portfolio"
+          >https://github.com/moses-py/portfolio</a
+        >
+      </p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

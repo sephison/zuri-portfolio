@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 1rem);
+  background-image: url("/portfolio/blob.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.image {
+  height: 300px;
+  object-fit: contain;
+  border-radius: 100%;
+}
+
+.username {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: underline;
+  color: maroon;
+}
+
+span {
+  font-size: 1.5rem;
+}
